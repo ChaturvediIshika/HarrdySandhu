@@ -2,13 +2,13 @@
 .section1{
     text-align: center;
     margin: 0px 10% 5% 10%;
-    background-color: #ffbcd165;
+    background-color: #F9F9F9;
     padding-bottom: 100px;
 }
 .navbar{
-    background-color: #F4BEEE;
+    background-color: #EAF6F6;
     margin-bottom: 100px;
-    padding: 10px 0px;
+    padding: 15px 0px;
 }
 .image-1{
     width: 100%;
@@ -21,6 +21,10 @@
     padding-left: 30px;
     font-size: 3vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: rotate(-5deg);
+}
+span{
+color: #FF5D5D;
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -60,7 +64,7 @@ p{
 .section3{
     margin: 0% 10% 5% 10%;
     text-align: center;
-    background-color: violet;
+    background-color: #66BFBF;
 }
 .footer{
     height: 100px;

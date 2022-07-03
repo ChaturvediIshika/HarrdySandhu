@@ -1,13 +1,13 @@
 section{
     text-align: center;
     margin: 0px 10% 5% 10%;
-    background-color: #ffbcd165;
+    background-color: #F9F9F9;
     padding-bottom: 100px;
 }
 .navbar{
-    background-color: #F4BEEE;
+    background-color: #EAF6F6;
     margin-bottom: 50px;
-    padding: 10px 0px;
+    padding: 15px 0px;
 }
 .container-fluid{
     padding: 0px;
@@ -16,4 +16,56 @@ section{
     padding-left: 30px;
     font-size: 3vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: rotate(-5deg);
+    
+}
+span{
+    color: #FF5D5D;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13vh;
+    padding-bottom: 25px;
+}
+.img-1{
+    width: 25%;
+    float: right;
+    margin: 25px;
+    margin-right: 45px;
+    border-radius: 10%;
+}
+p{
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 2;
+}
+.img-2{
+    width: 30%;
+    float: left;
+    margin: 25px;
+    border-radius: 100%;
+}
+.img-3{
+    width: 25%;
+    float: right;
+    margin: 25px;
+}
+.img-4{
+    width: auto;
+}
+/* --------section3------- */
+
+.section3{
+    margin: 0% 10% 5% 10%;
+    text-align: center;
+    background-color: #66BFBF;
+}
+.footer{
+    height: 10px;
+}
+h2{
+    margin: 45px auto;
+    padding-top: 40px;
+    font-size: 15px;
 }
