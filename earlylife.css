@@ -1,0 +1,19 @@
+section{
+    text-align: center;
+    margin: 0px 10% 5% 10%;
+    background-color: #ffbcd165;
+    padding-bottom: 100px;
+}
+.navbar{
+    background-color: #F4BEEE;
+    margin-bottom: 50px;
+    padding: 10px 0px;
+}
+.container-fluid{
+    padding: 0px;
+}
+.navbar-brand{
+    padding-left: 30px;
+    font-size: 3vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
