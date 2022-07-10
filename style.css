@@ -47,14 +47,81 @@ h1{
 /* ------section2-------- */
 .section2{
     margin: 0% 10% 5% 10%;
-    margin: 50px;
+    margin-top: 50px;
     text-align: center;
 }
-.image-2{
-    width: 250px;
-}
+.container {
+    position: relative;
+    width: 320px;
+    margin: 50px auto 100px auto;
+    perspective: 1000px;
+  }
+  
+  .carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 60s infinite forwards linear;
+  }
+  .carousel__face { 
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    /* box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5); */
+    display: flex;
+  }
+  .abc{
+    height: 350px;
+  }
+  
+  
+  
+  .carousel__face:nth-child(1) {
+    background-image: url("https://cdn-wp.thesportsrush.com/2020/02/Hardy-Sandhu.jpg");
+    transform: rotateY(  0deg) translateZ(430px); }
+  .carousel__face:nth-child(2) { 
+    background-image: url("https://images.mid-day.com/images/images/2021/nov/Harrdy-Sandhu-aw_d.jpg");
+      transform: rotateY( 40deg) translateZ(430px); }
+  .carousel__face:nth-child(3) {
+    background-image: url("https://wallpaperaccess.com/full/5713294.jpg");
+    transform: rotateY( 80deg) translateZ(430px); }
+  .carousel__face:nth-child(4) {
+    background-image: url("https://yespunjab.com/wp-content/uploads/2022/04/Harrdy-Sandhu-Singer-.jpg");
+    transform: rotateY(120deg) translateZ(430px); }
+  .carousel__face:nth-child(5) { 
+    background-image: url("https://wp.ptcpunjabi.co.in/wp-content/uploads/2022/03/Harrdy-Sandhu.jpg");
+   transform: rotateY(160deg) translateZ(430px); }
+  .carousel__face:nth-child(6) { 
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_RiNJaF43xNpdSUrqNpgaew-HZRc52f8KUw&usqp=CAU");
+   transform: rotateY(200deg) translateZ(430px); }
+  .carousel__face:nth-child(7) { 
+    background-image: url("https://i.pinimg.com/originals/84/af/96/84af967bf4034d6af7cc1a1233e5b156.jpg");
+   transform: rotateY(240deg) translateZ(430px); }
+  .carousel__face:nth-child(8) {
+    background-image: url("https://i.pinimg.com/474x/bb/40/62/bb4062808dc1b4e5608240761dc34c6c.jpg");
+    transform: rotateY(280deg) translateZ(430px); }
+  .carousel__face:nth-child(9) {
+    background-image: url("https://i.pinimg.com/originals/c4/d3/ea/c4d3ea6b351207f0bc61ae5e0d666da6.jpg");
+    transform: rotateY(320deg) translateZ(430px); }
+  
+  
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+  
 p{
-    margin: 20px;
+    margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
