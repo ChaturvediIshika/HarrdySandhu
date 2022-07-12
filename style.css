@@ -141,3 +141,26 @@ h2{
     padding-top: 40px;
     font-size: 15px;
 }
+
+/* ------responsive------*/
+
+@media only screen and (max-width: 626px){
+  .section1 , .section2, .section3{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 130vw;
+  }
+  span{
+    font-size: 30px;
+  }
+  h1{
+    font-size: 80px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .carousel__face{
+    width: 200px;
+  }
+
+}
