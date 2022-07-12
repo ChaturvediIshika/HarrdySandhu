@@ -145,13 +145,24 @@ h2{
 
 /* ------responsive------*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
     .section1, .section2, .section3{
+      margin: 0%;
       width: 100%;
     }
+    h1{
+      font-size: 3.75rem;
+    }
+    .navbar{
+      margin-bottom: 15px;
+    }
+    span{
+      font-size: 2rem;
+    }
+    
 }
