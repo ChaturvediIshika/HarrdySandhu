@@ -144,7 +144,7 @@ h2{
 
 /* ------responsive------*/
 
-@media only screen and (max-width: 626px){
+@media only screen and (max-width: 300px){
   *{padding: 0; margin: 0; box-sizing: border-box;}
   .section1 , .section2, .section3{
     width: 100%;
