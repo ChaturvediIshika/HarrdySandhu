@@ -162,6 +162,7 @@ h2{
     }
     h1{
       font-size: 4rem;
+      padding-left: 10px;
     }
     .navbar{
       margin-bottom: 15px;
