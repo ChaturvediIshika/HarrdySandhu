@@ -140,7 +140,12 @@ p{
 h2{
     margin: 45px auto;
     padding-top: 40px;
-    font-size: 15px;
+    font-size: 20px;
+}
+.footer span{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 /* ------responsive------*/
