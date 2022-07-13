@@ -70,3 +70,31 @@ h2{
     padding-top: 40px;
     font-size: 15px;
 }
+
+/* ------responsive------*/
+
+@media screen and (max-width: 600px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+        .section, .section3{
+          margin: 0%;
+          width: 100%;
+        }
+        .navbar{
+            margin-bottom: 15px;
+          }
+          span{
+            font-size: 2rem;
+          }
+    .img-1, .img-2, .img-3{
+        width: 30vw;
+        height: 25vh;
+    }
+    .img-4{
+        height: 25vh;
+        width: 50vw;
+    }
+}
