@@ -79,7 +79,7 @@ h2{
         margin: 0;
         box-sizing: border-box;
       }
-        .section, .section3{
+        section, .section3{
           margin: 0%;
           width: 100%;
         }
