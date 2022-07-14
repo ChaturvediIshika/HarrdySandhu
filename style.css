@@ -58,7 +58,7 @@ h1{
     perspective: 1000px;
   }
   
-  .carousel {
+  .carousel123 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -127,6 +127,10 @@ p{
     font-size: 25px;
 }
 
+#carouselExampleControls{
+  display: none;
+}
+
 /* --------section3------- */
 
 .section3{
@@ -170,5 +174,22 @@ h2{
     span{
       font-size: 1.5rem;
     }
-    
+    .container{
+      display: none;
+    }
+    #carouselExampleControls{
+      display: inline;
+    }
+    .abc{
+      display: none;
+    }
+    .res-image{
+      width: 300px;
+      height: 300px;
+    }
+    .carousel-inner{
+      display: flex;
+      justify-content: center;
+      padding-left: 30px;
+    }
 }
